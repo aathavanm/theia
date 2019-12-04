@@ -48,7 +48,7 @@ spec:
         discoverable: false
   containers:
    - name: theia-ide
-     image: "docker.io/aathavan/ct:7..0"
+     image: "docker.io/aathavan/ct:next"
      env:
          - name: THEIA_PLUGINS
            value: local-dir:///plugins
